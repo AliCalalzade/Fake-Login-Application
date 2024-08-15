@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="formWrapper">
+            <form action="" class="form">
+                <h1 class="JC-c">Welcome</h1>
+                <h4>Email:</h4>
+                <input type="email" placeholder="Enter your Email" id="EnterEmail">
+                <h4>Password:</h4>
+                <input type="password" placeholder="Enter your Password" id="EnterPassword">
+                <button id="LoginButton">Login</button>
+                <div class="SignUpLink">
+                    <a href="SignUp.html">Create an account</a>
+                    <span> if you do not have an account</span>
+                </div>
+                <div class="errText" style="display: flex; margin-top: 10px; color: red;">
+                    <span id="ErrorMessage"></span>
+                    <a href="SignUp.html" id="Err" style="display: none;"> Create an account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
